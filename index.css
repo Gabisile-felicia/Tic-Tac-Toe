@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #afcbff;
+}
+#board {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  cursor: pointer;
+}
+.tile {
+  display: flex;
+  justify-content: center;
+  color: #e7ffac;
+  font-size: 2em;
+  align-items: center;
+}
+.right-border {
+  border-right: 2px solid indigo;
+}
+.bottom-border {
+  border-bottom: 2px solid indigo;
+}
